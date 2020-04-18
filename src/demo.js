@@ -1,9 +1,9 @@
 const news = {
-  name: string => {
+  name: (string) => {
     const result = typeof string !== 'undefined' ? 'xx' : 'yy'
     return result
   },
-  test: numeric => {
+  test: (numeric) => {
     const result = typeof numeric != 'undefined' ? '11' : '22'
     return result
   },
